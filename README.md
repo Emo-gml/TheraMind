@@ -22,7 +22,7 @@ This repository contains the official evaluation code and data for the paper "**
 <p align="center">
   <img src="https://github.com/Emo-gml/TheraMind/blob/main/figues/pipeline-agent.jpg" alt="Agent Pipline Overview" width="75%">
   <br>
-  <em>Figure: Overview of TheraMind's Pipeline.</em>
+  <em></em>
 </p>
 
 ## 🔥 Quick Start
