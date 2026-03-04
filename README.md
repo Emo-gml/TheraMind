@@ -93,5 +93,5 @@ For **research and educational use only.**
 
 Please ensure compliance with **ethical and legal standards** in mental health AI research.
 
-🔥Please contact huhe@gml.ac.cn
+🔥Please contact huhe@gml.ac.cn or chiyuanma@link.cuhk.edu.cn
  if you encounter any issues.
