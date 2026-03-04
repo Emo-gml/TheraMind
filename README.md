@@ -18,13 +18,52 @@ This repository contains the official evaluation code and data for the paper "**
 **TheraMind** is an agent specialized in **longitudinal psychological counseling** and **adaptive mental health dialogue generation**. Addressing the critical limitations of standard LLMs, it unifies **tactical dialogue management** and **long-term strategic planning** through a novel **dual-loop** architecture.
 
 ## 🔥 Quick Start
+#### Preparation
+```python
+# Prepare your api configure first
+{"api_config": {
+    "openai": {
+      "base_url": "",
+      "api_key": "",
+      "model": "",
+      "enabled": true}}
+}
+#
+```
+#### Automatic Conversation Simulation Between Doctor and Patient
+```python
+from main import AutoDialogueRunner
+runner = AutoDialogueRunner()
+runner.run(num_sessions=6, max_rounds_per_session=8)
+```
 #### TherapistAgent Interface
 ```python
-
+from main import TherapistAgent
+therapist = TherapistAgent()
+patient_id = "P001" 
+session_info = therapist.start_new_session(patient_id)
+patient_response = {"text": ""}
+session_state = therapist.process_patient_input(patient_response)
+print(session_state["therapist_response"])  
 ```
 #### PatientAgent Interface
 ```python
+from main import PatientAgent
+from initialization import TherapistInitializer
+from memory import StrictMemoryManager
 
+patient_id = "P001"
+memory_manager = StrictMemoryManager()
+initializer = TherapistInitializer(memory_manager)
+medical_record = initializer._get_initial_record(patient_id)
+patient_agent = PatientAgent(
+    medical_record=medical_record,
+    patient_id=patient_id
+)
+patient_agent.update_session(session_num=1)
+therapist_message = ""
+patient_reply = patient_agent.generate_response(therapist_message)
+print(patient_reply["text"])    
 ```
 
 ## 📜 Citation
