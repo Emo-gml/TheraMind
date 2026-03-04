@@ -212,7 +212,7 @@ Return your answer strictly in JSON format, like this:
 
         session_strategy_memory = self._get_session_strategy_memory(patient_id)
         
-        primary_emotion = emotion_data.get('primary_emotion', '未知')
+        primary_emotion = emotion_data.get('primary_emotion', 'unknown')
         emotional_intensity = f"{emotion_data.get('emotional_intensity', 0.0):.1f}"
         prompt = f"""
 ##Role:
@@ -370,3 +370,4 @@ Strictly output a Boolean value True or False.
 
         response = self._call_openai_api(prompt, max_tokens=5, temperature=0.0)
         return response.strip().lower() == "true"
+
