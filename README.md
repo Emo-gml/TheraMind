@@ -16,3 +16,22 @@ This repository contains the official evaluation code and data for the paper "**
 
 ## 🧠 TheraMind
 **TheraMind** is an agent specialized in **longitudinal psychological counseling** and **adaptive mental health dialogue generation**. Addressing the critical limitations of standard LLMs, it unifies **tactical dialogue management** and **long-term strategic planning** through a novel **dual-loop** architecture.
+
+## 📜 Citation
+```bibtex
+@article{hu2025theramind,
+  title={Theramind: A strategic and adaptive agent for longitudinal psychological counseling},
+  author={Hu, He and Zhou, Yucheng and Ma, Chiyuan and Wang, Qianning and Zhang, Zheng and Ma, Fei and Cui, Laizhong and Tian, Qi},
+  journal={arXiv preprint arXiv:2510.25758},
+  year={2025}
+}
+```
+
+## 🧩 License
+
+For **research and educational use only.**
+
+Please ensure compliance with **ethical and legal standards** in mental health AI research.
+
+🔥Please contact huhe@gml.ac.cn
+ if you encounter any issues.
