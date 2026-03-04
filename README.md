@@ -28,7 +28,10 @@ This repository contains the official evaluation code and data for the paper "**
       "model": "",
       "enabled": true}}
 }
-#
+
+# Data process
+python data_produce.py
+python case_produce.py
 ```
 #### Automatic Conversation Simulation Between Doctor and Patient
 ```python
