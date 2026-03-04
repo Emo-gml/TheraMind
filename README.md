@@ -10,7 +10,7 @@ This repository contains the official evaluation code and data for the paper "**
 > TheraMind represents a definitive shift in AI mental health, moving beyond static models to a dynamic, longitudinal agent that emulates human cognitive processes. It features a novel dual-loop framework that manages both immediate turn-by-turn interactions and long-term strategic goals across multiple sessions. Unlike traditional single-therapy tools, TheraMind utilizes an adaptive selection mechanism to adjust its clinical approach based on real-time efficacy. By integrating patient state perception with phase-aware dialogue management, it transforms standard response generation into a deliberative clinical intervention.
 
 ## 📰 News
-- **[2026-01-14]** Our paper [**TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling**](https://arxiv.org/abs/2510.25758). has been accepted by WWW2026 Web4Good Track!
+- **[2026-01-14]** Our paper [**TheraMind**](https://arxiv.org/abs/2510.25758) has been accepted by WWW2026 !
 - **[2025-11-02]** Paper submitted to arXiv:https://arxiv.org/abs/2510.25758.
 ## 📦 Dataset
 **CPsyCounR** (Zhang et al., 2024a) serves as the experimental foundation for our study. This dataset consists of 3,134 anonymized and professionally rewritten Chinese psychological counseling reports, sourced from the platforms Yidianling (Yidianling, 2015) and Psy525 (Psy525, 2007). By adhering to a standardized structure—comprising case briefs, consultation processes, and therapist reflections—the dataset ensures a high degree of authenticity, privacy, and clinical reliability. Ultimately, it provides a robust basis for evaluating the long-term, nuanced capabilities of counseling agents within realistic contexts.
