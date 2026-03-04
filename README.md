@@ -20,7 +20,7 @@ This repository contains the official evaluation code and data for the paper "**
 **TheraMind** is an agent specialized in **longitudinal psychological counseling** and **adaptive mental health dialogue generation**. Addressing the critical limitations of standard LLMs, it unifies **tactical dialogue management** and **long-term strategic planning** through a novel **dual-loop** architecture.
 
 <p align="center">
-  <img src="https://github.com/Emo-gml/TheraMind/blob/main/figues/pipeline-agent.pdf" alt="Agent Pipline Overview" width="75%">
+  <img src="https://github.com/Emo-gml/TheraMind/blob/main/figues/pipeline-agent.jpg" alt="Agent Pipline Overview" width="75%">
   <br>
   <em>Figure: Overview of TheraMind's Pipeline.</em>
 </p>
