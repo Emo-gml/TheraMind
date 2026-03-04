@@ -7,6 +7,8 @@
 ## 🌸 About
 This repository contains the official evaluation code and data for the paper "**TheraMind : A Strategic and Adaptive Agent for Longitudinal Psychological Counseling**". See more details in our [paper](https://arxiv.org/abs/2510.25758). If you find this project helpful, feel free to ⭐ it!
 
+> TheraMind represents a definitive shift in AI mental health, moving beyond static models to a dynamic, longitudinal agent that emulates human cognitive processes. It features a novel dual-loop framework that manages both immediate turn-by-turn interactions and long-term strategic goals across multiple sessions. Unlike traditional single-therapy tools, TheraMind utilizes an adaptive selection mechanism to adjust its clinical approach based on real-time efficacy. By integrating patient state perception with phase-aware dialogue management, it transforms standard response generation into a deliberative clinical intervention.
+
 ## 📰 News
 - **[2026-01-14]** Our paper [**TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling**](https://arxiv.org/abs/2510.25758). has been accepted by WWW2026 Web4Good Track!
 - **[2025-11-02]** Paper submitted to arXiv:https://arxiv.org/abs/2510.25758.
