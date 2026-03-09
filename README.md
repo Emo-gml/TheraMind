@@ -37,44 +37,30 @@ This repository contains the official evaluation code and data for the paper "**
       "enabled": true}}
 }
 
-# Data process
-python data_produce.py
+# Produce patient medical records
 python case_produce.py
+
+# Generate session guidance
+python data_produce.py
 ```
 #### Automatic Conversation Simulation Between Doctor and Patient
 ```python
 from main import AutoDialogueRunner
 runner = AutoDialogueRunner()
 runner.run(num_sessions=6, max_rounds_per_session=8)
+
+# or you can directly run
+python main.py
 ```
-#### TherapistAgent Interface
+#### TherapistAgent Create
 ```python
 from main import TherapistAgent
 therapist = TherapistAgent()
-patient_id = "P001" 
-session_info = therapist.start_new_session(patient_id)
-patient_response = {"text": ""}
-session_state = therapist.process_patient_input(patient_response)
-print(session_state["therapist_response"])  
 ```
-#### PatientAgent Interface
+#### PatientAgent Create
 ```python
 from main import PatientAgent
-from initialization import TherapistInitializer
-from memory import StrictMemoryManager
-
-patient_id = "P001"
-memory_manager = StrictMemoryManager()
-initializer = TherapistInitializer(memory_manager)
-medical_record = initializer._get_initial_record(patient_id)
-patient_agent = PatientAgent(
-    medical_record=medical_record,
-    patient_id=patient_id
-)
-patient_agent.update_session(session_num=1)
-therapist_message = ""
-patient_reply = patient_agent.generate_response(therapist_message)
-print(patient_reply["text"])    
+patient_agent = PatientAgent() 
 ```
 
 ## 📜 Citation
