@@ -50,7 +50,7 @@ runner = AutoDialogueRunner()
 runner.run(num_sessions=6, max_rounds_per_session=8)
 
 # or you can directly run
-python main.py
+python agent/main.py
 ```
 #### TherapistAgent Create
 ```python
