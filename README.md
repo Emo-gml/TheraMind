@@ -13,7 +13,12 @@ This repository contains the official evaluation code and data for the paper "**
 - **[2026-01-14]** Our paper [**TheraMind**](https://arxiv.org/abs/2510.25758) has been accepted by WWW2026 !
 - **[2025-11-02]** Paper submitted to arXiv:https://arxiv.org/abs/2510.25758.
 ## 📦 Dataset
-**CPsyCounR** (Zhang et al., 2024a) serves as the experimental foundation for our study. This dataset consists of 3,134 anonymized and professionally rewritten Chinese psychological counseling reports, sourced from the platforms Yidianling (Yidianling, 2015) and Psy525 (Psy525, 2007). By adhering to a standardized structure—comprising case briefs, consultation processes, and therapist reflections—the dataset ensures a high degree of authenticity, privacy, and clinical reliability. Ultimately, it provides a robust basis for evaluating the long-term, nuanced capabilities of counseling agents within realistic contexts.
+[CPsyCounR](https://huggingface.co/datasets/CAS-SIAT-XinHai/CPsyCounR) serves as the reference dataset for our experiment. This dataset consists of 3,134 anonymized and professionally rewritten Chinese psychological counseling reports. We extracted and processed information from the original dataset using large language models, obtaining two new datasets needed for our simulation experiment. The first one we generated is the Patient_Medical_Record dataset which is used for providing a basic medical profile for Patient Agent to simulate the patient. The second dataset we synthesized is [TheraMind_Patient_Guidance](https://huggingface.co/datasets/GMLHUHE/TheraMind_Patient_Guidance) which is used for providing the Simulated Patient Agent with basic knowledge of each session in a multi-session conversation.
+
+
+
+
+By adhering to a standardized structure—comprising case briefs, consultation processes, and therapist reflections—the dataset ensures a high degree of authenticity, privacy, and clinical reliability. Ultimately, it provides a robust basis for evaluating the long-term, nuanced capabilities of counseling agents within realistic contexts.
 
 
 ## 🧠 What is TheraMind ？
