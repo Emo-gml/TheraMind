@@ -30,10 +30,11 @@ The original psychological dataset used in our synthesized datasets are derived 
 Our TheraMind achieves better performance across all ten distinct categories of psychological issues in both single-session (left) and multi-
 session (right) contexts.
 <p align="center">
-  <img src="https://github.com/Emo-gml/TheraMind/blob/main/figues/combined_radar_chart.jpg" alt="radar overview" width="55%">
+  <img src="https://github.com/Emo-gml/TheraMind/blob/main/figues/combined_radar_chart.jpg" alt="radar overview" width="60%">
   <br>
   <em></em>
 </p>
+
 ## 🔥 Quick Start
 #### Preparation
 ```python
