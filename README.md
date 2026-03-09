@@ -27,9 +27,9 @@ The original psychological dataset used in our synthesized datasets are derived 
 </p>
 
 ### 🧩 Key Features
-• A novel dual-loop agent framework (TheraMind) that models both turn-level dialogue dynamics and the strategic, multi-session structure of psychological counseling.
-• An adaptive therapy selection mechanism that evaluates therapeutic efficacy and adjusts treatment strategies across sessions, addressing the limitations of static single-therapy approaches.
-• A clinically grounded dialogue management system that integrates patient state perception, dynamic strategy selection, and treatment phase awareness to support deliberative therapeutic interventions.
+- A novel dual-loop agent framework (TheraMind) that models both turn-level dialogue dynamics and the strategic, multi-session structure of psychological counseling.
+- An adaptive therapy selection mechanism that evaluates therapeutic efficacy and adjusts treatment strategies across sessions, addressing the limitations of static   single-therapy approaches.
+- A clinically grounded dialogue management system that integrates patient state perception, dynamic strategy selection, and treatment phase awareness to support deliberative therapeutic interventions.
 
 ### 📈 Superior Performance
 Our TheraMind achieves better performance across all ten distinct categories of psychological issues in both single-session (left) and multi-
