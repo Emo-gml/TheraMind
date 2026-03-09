@@ -26,6 +26,8 @@ The original psychological dataset used in our synthesized datasets are derived 
   <em></em>
 </p>
 
+## 📈 Superior Performance
+
 ## 🔥 Quick Start
 #### Preparation
 ```python
