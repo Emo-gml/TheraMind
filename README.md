@@ -93,7 +93,7 @@ For **research and educational use only.** Please ensure compliance with **ethic
 
 ## 🌱 Acknowledgements
 
-We gratefully acknowledge the **CPsyCounR** dataset for providing the foundational counseling reports that enabled the construction of our synthesized datasets. We also sincerely thank the **psychology experts and domain specialists** who provided valuable guidance on psychotherapy processes, counseling strategies, and clinical plausibility during the design of TheraMind and the dataset construction. Their expertise greatly contributed to ensuring the realism and reliability of the simulated counseling scenarios.
+We gratefully acknowledge the **CPsyCounR** dataset for providing counseling reports that support the simulation of realistic patient profiles in our dataset. We also sincerely thank the **psychology experts** who offered valuable guidance on psychotherapy processes and counseling dynamics during the development of TheraMind, helping ensure the clinical plausibility and realism of the simulated counseling scenarios.
 
 🔥Please contact huhe@gml.ac.cn or chiyuanma@link.cuhk.edu.cn
  if you encounter any issues.
