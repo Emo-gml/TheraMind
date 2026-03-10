@@ -89,10 +89,11 @@ patient_agent = PatientAgent()
 ```
 
 ## 🧩 License
+For **research and educational use only.** Please ensure compliance with **ethical and legal standards** in mental health AI research.
 
-For **research and educational use only.**
+## 🌱 Acknowledgements
 
-Please ensure compliance with **ethical and legal standards** in mental health AI research.
+We gratefully acknowledge the **CPsyCounR** dataset for providing the foundational counseling reports that enabled the construction of our synthesized datasets. We also sincerely thank the **psychology experts and domain specialists** who provided valuable guidance on psychotherapy processes, counseling strategies, and clinical plausibility during the design of TheraMind and the dataset construction. Their expertise greatly contributed to ensuring the realism and reliability of the simulated counseling scenarios.
 
 🔥Please contact huhe@gml.ac.cn or chiyuanma@link.cuhk.edu.cn
  if you encounter any issues.
